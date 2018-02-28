@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<input type="color" />
+		<input type="date" />
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			
+			$("input[type='color']").change(function(){
+				
+				var str =$(this).val();
+				$("body").css("background",str);				
+			})
+		</script>
+	</body>
+</html>

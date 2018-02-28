@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="range" min="0" max="200"/>
+		<span></span>
+		<figure>
+	
+		<img src="img/hero2.jpg"/>
+			
+		</figure>
+
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			
+			$("input:eq(0)").change(function(){
+				
+				$("span").html($(this).val());
+				$("img").css("width",$(this).val());
+			})
+		</script>
+	</body>
+</html>

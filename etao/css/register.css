@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding:0 ;
+}
+header{
+	position: relative;
+		height: 40px;
+}
+header #headUl{
+	margin-top:5px ;
+	width:100% ;
+	height: 40px;
+	background-color: #EEEEEE;
+	list-style: none;
+	float: left;
+}
+#headUl li{
+	/*line-height: 40px;*/
+	height: 40px;
+	list-style: none;
+	float: left;
+	margin-left:20px;
+}
+#headUl .liLeft{
+	float: left;
+	left:50px;
+	position: absolute;
+}
+#headUl .liRight{
+	float: left;
+	right:50px;
+	position: absolute;
+}
+
+#headUl li a{
+    height:40px;
+    margin-top: 10px;
+	font-size: 10px;
+	color: #666;
+	text-decoration:none;
+}
+
+#headUl li .red-a{
+	font-size: 14px;
+	color: red;
+}
+
+
+/*注册主题部分*/
+#register_logo{
+/*	margin-top: 10px;*/
+	position: relative;
+	top:10px;
+	left: 20px;
+	height: 550px;
+}
+.success{
+		background: green;
+		color: white;
+		font-size: 16px;
+		display: none;
+}
+.error{
+	background: red;
+	color: white;
+	font-size: 16px;
+	display: none;
+}
+#user_register{
+	left:30%;
+	position: absolute;
+	/*text-align: center;*/
+}
+#user_register p{
+	margin-top:10px;
+}
+
+#user_register h3{
+	margin-top: 20px;
+	/*position: absolute;*/
+}
+#user_register #reg{
+	margin: 20px 80px;
+	width: 100px;
+	height: 40px;
+	background: red;
+	color: white;
+	border:none ;
+	cursor:pointer ;
+}
+
+/*底部通用样式*/
+footer{
+	font-size: 8px;
+}
+footer ul{
+	width: 100%;
+	margin-top:5px ;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	list-style: none;
+	float: left;
+}
+footer ul li{
+	list-style: none;
+	float: left;
+    margin:10px;
+	font-size: 8px;
+}
+footer ul li a{
+	margin: 5px;
+	text-decoration: none;
+	color: #222;
+}
+#bot{
+	
+	text-align: center;
+}

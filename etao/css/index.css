@@ -1,0 +1,586 @@
+/*共有样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100%;
+	background-color:#DCDCDC ;
+	/*padding: 1%;*/
+}
+#top-common-banner{	
+	background-color: #eee;
+}
+#top-common-banner a{
+	margin-left:80px;
+}
+#top_part{
+    height: 40px;
+	font-size: 6px;
+	background-color: #eee;
+	line-height: 40px;
+}
+#top_part span{
+	margin-left:90px;
+}
+#top_part .tp{
+	/*margin-right:110px;*/
+	cursor: pointer;
+}
+#login{
+	margin-left:186px;
+	color: red;
+	border: none;
+	background-color: #eee;
+	cursor: pointer;
+}
+.register{
+	border: none;
+	background-color: #eee;
+	cursor: pointer;
+}
+#search_part{
+	width:100% ;
+	height: 100px;
+	/*float: left;*/
+	position: relative;
+}
+#search_part #logo {
+	left: 80px;
+	width: 280px;
+	position: absolute;
+}
+#search_part #logo img{
+	width: 280px;
+	display: block;
+}
+
+#search_part .search{
+	top:20px;
+	width: 500px;
+	position: absolute;
+	left: 350px;
+	height: 40px;
+	border: 2px solid red;
+	border-radius: 5px;
+	line-height: 40px;
+}
+#search_part .search input{
+	border:none ;
+	border-color: red;
+	width: 400px;
+	font-size:14px ;
+	line-height: 40px;
+	outline:none
+}
+#search_part .search button{
+	top: 0px;
+	position: absolute;
+	right: 0;
+	border: none;
+	background: red;
+}
+#search_part #applogo{
+	top:15px;
+	position: absolute;
+	right: 190px;
+}
+#search_part ul{
+	left: 400px;
+	top:65px;
+	list-style: none;
+	position: absolute;
+	/*float: left;*/
+	font-size:6px ;
+}
+
+#search_part #navTop li{
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+	color: lightsteelblue;
+	cursor: pointer;
+}
+#search_part #navTop li a{
+	color: lightsteelblue;
+	text-decoration: none;
+}
+header{
+	position:relative;
+	background: white;
+	/*background: url(../img/6f51d290b4f7c535931192b8eb2c0263_u=3293024407,1960309523&fm=27&gp=0.jpg);*/
+}
+header #page{
+	height: 40px;
+	background: red;
+	margin-top: 10px;
+	/*position: absolute;*/
+	width:87% ;
+}
+header #page span{
+	margin-top: 10px;
+	margin-left:20px;
+	border-radius: 20px;
+	line-height:40px ;
+	padding: 10 10px;
+	height:30px ;
+	font-size: 20px;
+	/*background: white;*/	
+}
+header #page section{
+	left: 100px;
+	position: absolute;
+}
+header #page span.white{
+	background: white;
+	border: 1px solid white;
+}
+header #page span.white a{
+	color: red;
+}
+header #page span a{
+	margin: 10px 10px;
+	color: white;
+	text-decoration:none
+}
+/*购物下拉菜单部分*/
+#top_part #dropDownMenu{
+	position: fixed;
+	/*margin-right: 40px;*/
+	/*float: right;*/
+	margin-left:27%;
+	background: url(../img/cartimg.png)no-repeat;
+	background-size:70px ;
+	padding:10px ;
+	/*padding-right:80px ;*/
+	width: 40px;
+	height: 40px;
+	color: blueviolet;
+}
+
+#cartA{
+	text-decoration: none;
+	color: deeppink;
+}
+.pullcart{
+	margin-left:87%;
+	top:100px;
+	width:160px;
+	/*float: left;*/
+	background: lightpink;
+	opacity: 0.6;
+	position:fixed;
+	/*display: none;*/
+}
+.pullcart div{
+	float: left;
+	border-bottom: 2px solid red;
+	/*height: 100px;*/
+}
+#top_part .pullcart span{
+	margin-left: 0;
+	line-height: 15px;
+	float: left;
+	width: 100%;
+	/*height: 40px;*/
+	font-size:6px ;
+}
+.pullcart img{
+	float: left;
+	width: 40px;
+	height: 40px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+/*底部共有样式*/
+footer{
+	width: 100%;
+	/*position:absolute;*/
+	/*margin-top:95%;*/
+	margin-bottom: 10px;
+	/*height: 400px;*/
+	background: black;
+	bottom: 10px;
+}
+footer #bottom_part .bottom_nav{
+	width: 100%;
+	float: left;
+	/*position:absolute;*/
+	top: 0;
+	bottom: 0;
+	color: white;
+	margin: auto 5%;
+}
+footer span{
+	float: left;
+	margin:30px 70px;
+	width: 85px;
+	bottom: 170px;
+	font-size:20px ;
+	/*position:absolute;*/	
+}
+footer span a{
+	font-size: 14px;
+		text-decoration:none;
+		color: white;
+}
+footer span img{
+	width: 140px;
+	height: 180px;
+}
+footer #bottom_part .etao-link .etao-link-list{
+	left:100px;
+	bottom: 100px;
+	/*position: absolute;*/
+	text-align: center;
+		font-size: 10px;
+		color: #aaa;
+}
+footer #bottom_part .etao-link .etao-link-list .dib{
+		text-decoration:none;
+		margin-left:15px ;		
+		color: #aaa;
+}
+footer .etao-copyright{
+	/*position: absolute;*/
+	bottom: 40px;
+	margin:10 50%;
+	left:550px;
+	font-size: 8px;
+	height: 10px;
+	color: #aaa;
+}
+footer #bottom_part .etao-link p{
+	/*position: absolute;*/
+	left:560px;
+	font-size: 8px;
+	width: 500px;
+	height: 20px;
+	bottom:14px ;
+	color: #aaa;
+	margin: 5px 40%;
+	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*展示部分*/
+#show_part{
+	position: relative;
+	width:87% ;
+	/*background: url(../img/8eaf41474c7e59f5d281f7785ee12ab8_122999539595937azwmvnr9.jpg);*/
+	/*margin:  5% auto;*/
+	/*height: 80%;*/
+}
+
+#register_Carousel{
+	height:630px;
+	width: 1300px;
+}
+
+#show_part #nav{
+	list-style: none;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+#show_part #nav li{
+	list-style: none;
+	float: left;
+	margin-left:60px;
+}
+#show_part #nav li a{
+	text-decoration:none;
+	color:black;
+}
+/*////////////////////////////////////////////////////////////////////////*/
+/*轮播图*/
+	.carousel{
+		    top:0;
+			width: 750px;
+			height: 340px;
+			margin: 100px auto;
+			margin-top: 100px;
+			border: 1px solid #000;
+			position: absolute; 
+			left: 200px;
+		}
+				
+		.carousel div ul{
+			left: 0;
+			top: 100px;
+			margin-top: 100px;
+			list-style: none;
+		}
+		.carousel ul li{
+			margin-left:60px;
+			position: absolute;
+			top: 0;
+			left: -60px;
+			display: none;
+		}
+		.carousel ul li.oLi{
+			display: block;
+		}
+		.circles{
+			position: absolute;
+			bottom: 10px;
+			right: 10px;
+			width: 150px;
+			height: 18px;
+		}
+		.circles ol{
+			list-style: none;
+		}
+		.circles ol li{
+			float: left;
+			width: 18px;
+			height: 18px;
+			margin-right: 10px;
+			border-radius: 50%;
+			background-color: pink;
+			cursor: pointer;
+		}
+		.circles ol li.cur{
+			background-color: purple;
+		}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/		
+		/*轮播图-左边小*/
+.carousel_left{
+		    top:0;
+			width: 170px;
+			height: 340px;
+			margin: 100px auto;
+			margin-top: 100px;
+			/*border: 1px solid #000;*/
+			position: absolute; 
+			left:10px;
+		}
+				
+		.carousel_left div ul{
+			left: 0;
+			top: 100px;
+			margin-top: 100px;
+			list-style: none;
+		}
+		.carousel_left ul li{
+			margin-left:60px;
+			position: absolute;
+			top: 0;
+			left: -60px;
+			display: none;
+		}
+		.carousel_left ul li img{
+			width: 170px;
+			height: 340px;
+		}
+		.carousel_left ul li.oLi_left{
+			display: block;
+		}
+		.btns a{
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			top: 50%;
+			margin-top: -30px;
+			z-index: 999;
+			display: none;
+		}
+		.btns a img{
+			width: 20px;
+			height: 20px;
+		}
+		.btns a.leftBtn{
+			left: 10px;
+		}
+		.btns a.rightBtn{
+			right: 10px;
+		}
+		.circles_left{
+			position: absolute;
+			bottom: 10px;
+			right: 10px;
+			width: 150px;
+			height: 18px;
+		}
+		/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*注册登录？*/	
+#login-center{
+	position: absolute;
+	/*background-color: #EEEEEE;*/
+	top:100px;
+		width: 240px;
+		height: 340px;
+		left:960px;
+		text-align: center;
+}
+#login-center button{
+	color: red;
+	background: white;
+	border: 1px solid red;
+	border-radius:5px ;
+	margin-top: 10px;
+	margin-bottom:10px ;
+	padding: 5px 20px;
+	cursor: pointer;
+}
+#login-center .loginBTNall button.me{
+	color: white;
+	background: red;
+}
+#login-center span{
+	margin: 0px 10px;
+	font-size: 10px;
+}
+#login-center .italic{
+	margin: 5px;
+	font-size: 18px;
+	font-family: impact;
+	color: #999;
+}
+#login-center .italic span{
+	font-size: 18px;
+	font-family: impact;
+	color: red;
+}
+
+#signIn{
+	margin: 5px;
+	width: 170px;
+	height: 170px;
+}
+
+#standard{
+	position: absolute;
+	top:480px;
+	height: 80px;
+	/*text-align: center;*/
+	width: 100%;
+}
+#standard img{
+		height: 80px;
+}
+
+/*热门商品*/
+
+
+#show_part #hot-title{
+	width:200px ;
+	color: red;
+	margin:  auto;
+	/*position: absolute;*/
+	top:560px;
+	left:45%;
+	text-align:center ;
+	background: url(../img/TB1adb0OFXXXXXzapXXXXXXXXXX-245-81.png);
+}
+#show_part .goodsUl{
+	/*position: absolute;*/
+	top:660px;
+	overflow: hidden;
+	margin: 5%;
+	right: 0;
+	width: 90%;
+	/*background: #B0C4DE;*/
+	list-style: none;
+}
+
+#show_part .goodsUl li{
+	float: left;
+	width: 240px;
+	height: 250px;
+	margin-left: 20px;
+	margin-top: 10px;
+	text-align: center;
+	border: 2px solid red;
+	border-radius: 50px;
+	background: url(../img/hot.jpg);
+	background-size: 310px;
+	font-size: 10px;
+}
+#show_part .goodsUl li img{
+	width: 120px;
+	height:140px ;
+	float: left;
+}
+
+#show_part .goodsUl li .desc{
+	display:none;
+}
+#show_part .goodsUl li .pA a{
+	font-size: 14px;
+	font-weight: 600;
+	color: darkcyan;
+	text-decoration: none;
+}
+
+#show_part .goodsUl li button{
+	font-weight: 600;
+	color: white;
+	background-color:#FF4500 ;
+	border: none;
+	padding:5px ;
+	cursor: pointer;
+}
+.oP{
+	font-weight: 600;
+	color: blue;
+	font-weight: bold;
+}
+.head_portrait{
+	width: 100px;	
+}
+
+/****************************************************************************************/
+/*懒加载*/
+#lazyLoad{
+	float: left;
+	position: relative;
+	margin-right: 3%;
+}
+#lazyLoad #lazyLoadOl{
+	margin-left: 1%;
+	width: 43%;
+	position: absolute;
+}
+
+#lazyLoad #lazyLoadOl li{
+	list-style: none;
+	height: 260px;
+}
+
+#lazyLoad #lazyLoadOl li img{
+	margin-bottom:5px;
+	/*cursor: pointer;*/
+}
+
+#lazyLoad #lazyLoad_shop{
+	float: right;
+	width: 46%;
+	/*margin-right: 4%;*/
+}
+
+
+#lazyLoad .lazyLoadLi{
+	list-style: none;
+	float: left;
+	width: 150px;
+	height: 260px;
+	font-size:8px ;
+	/*float: right;
+	width: 60%;*/
+}
+#lazyLoad .lazyLoadLi button{
+	color: white;
+	background:#FFA500 ;
+	border: none;
+	border-radius: 10px;
+	padding:5px ;
+	cursor: pointer;
+}
+#lazyLoad .lazyLoadLi img{
+	opacity: 0.6;
+	width: 120px;
+	height: 120px;
+}
+#lazyLoad .lazyLoadLi .oP{
+	color: red;
+}

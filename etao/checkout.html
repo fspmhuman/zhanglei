@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>结算页面</title>
+		<link rel="stylesheet" type="text/css" href="css/checkout.css" />
+	</head>
+
+	<body>
+		<header>
+			<ul id="headUl">
+				<div class="liLeft">
+					<li>
+						<a id="login" class="red-a" href="login.html">亲，请登录</a></li>
+					<li>
+						<a href="register.html">免费注册</a></li>
+					<li>
+						<a href="">手机逛淘宝</a></li>
+				</div>
+				<div class="liRight">
+					<li>
+						<a class="red-a" href="index.html">回到首页</a></li>
+					<li>
+						<a href="index.html">我的淘宝</a></li>
+					<li>
+						<a href="cart.html">购物车</a></li>
+					<li>
+						<a href="cart.html">收藏夹</a></li>
+					<li>
+						<a href="list.html">商品分类</a></li>
+					<li>
+						<a href="">卖家中心</a></li>
+					<li>
+						<a href="">联系客服</a></li>
+					<li>
+						<a href="">网站导航</a></li>
+				</div>
+			</ul>
+	</header>		
+<!--下单页主体-->			
+<h4>请&nbsp&nbsp确&nbsp&nbsp认&nbsp&nbsp您&nbsp&nbsp的&nbsp&nbsp收&nbsp&nbsp货&nbsp&nbsp地&nbsp&nbsp址</h4>
+
+		<div class="address">
+			<span class="newAddress">添加新的地址</span>
+			<ul class="addess-ul">
+				<!--<li class="address-item" data-id="1">收货人：小王 北京 石景山 136911212123 实兴大街朗诚大厦2楼优才</li>-->
+			</ul>
+		</div>
+		
+		<div class="add" id="add">
+			<span class="close">X</span>
+			<form action="">
+				<p>
+					收货人姓名：
+					<input type="text" name="address_name" placeholder="请输入收货人姓名"/>
+				</p>
+				<p>
+					手机号码：
+					<input type="text" name="mobile" placeholder="请输入收货人手机号码"/>
+				</p>
+				<p>
+					所在省分：
+					<input type="text" name="province" placeholder="请输入收货人省"/>
+				</p>
+				<p>
+					所属城市：
+					<input type="text" name="city" placeholder="请输入收货人市"/>
+				</p>
+				<p>
+					所在地区：
+					<input type="text" name="district" placeholder="请输入收货人区"/>
+				</p>
+				<p>
+					详细地址：
+					<input type="text" name="address" placeholder="请输入收货人地址"/>
+				</p>
+				<input type="button" value="新建收货信息" id="btn"/>
+			</form>
+		</div>
+				
+		<div id="sum">
+			
+		</div>
+		
+		<input type="button" value="点我去买单" id="order"/>
+
+
+
+<footer>
+		<ul>
+			<li><a href="">阿里巴巴集团</a>|</li>
+			<li><a href="">阿里巴巴国际站</a>|</li>
+			<li><a href="">阿里巴巴中国站</a>|</li>
+			<li><a href="">全球速卖通</a>|</li>
+			<li><a href="">淘宝网</a>|</li>
+			<li><a href="">天猫</a>|</li>
+			<li><a href="">聚划算</a>|</li>
+			<li><a href="">一淘</a>|</li>
+			<li><a href="">阿里妈妈</a>|</li>
+			<li><a href="">阿里云计算</a>|</li>
+			<li><a href="">云OS</a>|</li>
+			<li><a href="">万网</a>|</li>
+			<li><a href="">支付宝</a></li>
+		</ul>
+		<div id="bot">
+		<p>© 2017 Taobao.com 版权所有</p>
+		</div>
+		<p>网络文化经营许可证：文网文[2010]040号|增值电信业务经营许可证：浙B2-20080224-1|信息网络传播视听节目许可证：1109364号</p>
+	</footer>
+	<script src="js/jquery-1.12.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/checkout.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

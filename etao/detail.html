@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>商品详情</title>
+		<link rel="stylesheet" type="text/css" href="css/detail.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="css/sinaFaceAndEffec.css"/>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div id="top-common-banner">
+				<a href="#"><img src="img/header.jpg"/></a>
+			</div>		
+	<div id="top_part">
+		<span>欢迎来到一淘网，阿里巴巴旗下生活省钱利器！</span>
+		<span class="login"><button id="login">亲，请先登录</button></span>
+		或
+		<button class="register">免费注册</button>
+		<span class="tp"><a id="cartA" href="cart.html">查看订单</a></span>
+				<span class="tp">消息</span>
+		<span class="tp" id="dropDownMenu">购物车</span>
+		<div class="pullcart"></div>
+
+	</div>
+	</header>
+   <div style="clear:both;"></div> 
+   <img id="right_fixed" src="img/rightC.jpg"/>
+   
+<section id="show_part">
+	<!--小图块-->
+<section>
+    <img src="./img/xiao.jpg" alt="">
+    <aside></aside>
+</section>
+<!--放大块-->
+  <article id="article">
+   
+  </article>
+  
+  <!--商品详情-->
+ <ul id="box">
+		<!--<li>家居</li>
+			<li>家具</li>
+			<li>文具</li>
+			<li>数码</li>
+			<li>玩乐</li>
+			<li>厨卫</li>
+			<li>美食</li>
+			<li>男装</li>
+			<li>女装</li>
+			<li>童装</li>	-->
+		</ul>
+
+		<button id="crat">加入购物车</button> 
+ 
+</section>
+ <img id="guanggao" src="img/TB2DiNShf2H8KJjy1zkXXXr7pXa_!!435845767.jpg" alt="" />
+ <table border="" cellspacing="" cellpadding="">
+ 	<tr><th>商品详情</th></tr>
+ 	<tr class="titleTr"><td>品牌名称:TIKKI TOKKI</td></tr>
+ 	<tr class="titleTr"><td>产品参数：</td></tr>
+ 	<tr>
+ 		<td>上市时间：2017年秋</td>
+ 		<td>品牌：TIKKI TOKKI</td>
+ 		<td>袖长：长袖</td>		
+ 	</tr>
+ 	<tr>
+ 		<td>适用对象：青少年</td>
+ 		<td>里料材质成分: 棉100%</td>
+ 		<td>面料材质成分: 棉100%</td>		
+ 	</tr>
+ 	<tr>
+ 		<td>颜色分类: V领大红</td>
+ 		<td>风格: 奢华</td>
+ 		<td>裤长: 长裤</td>		
+ 	</tr>
+ 	<tr>
+ 		<td>厚薄: 薄款</td>
+ 		<td>材质: 棉</td>
+ 		<td>成分含量: 95%以上</td>		
+ 	</tr>
+ 	<tr>
+ 		<td>克重: 450g及以上</td>
+ 		<td>面料: 纯棉</td>
+ 		<td>图案: 纯色</td>		
+ 	</tr>
+ 	<tr>
+ 		<td>款号: TCC_006</td>
+ 		<td>尺码: 165/90基础款1 170/95基础款</td>
+ 		<td>适用性别: 男</td>		
+ 	</tr>
+ 	<tr>
+ 		<td>功能: 保暖</td>
+ 		<td>领型: 普通圆领</td>
+ 		<td>层数: 单层</td>		
+ 	</tr>
+ 	<tr>
+ 		<td>是否加绒: 不加绒</td>
+ 		<td>是否贴片: 无贴片</td>
+ 		<td></td>		
+ 	</tr>
+ 	
+ </table>
+ 
+ 
+<!--//转载的评论-->
+<div id="content" style="width: 700px; height: auto;margin-left:30%;margin-top:40px">
+	<div class="wrap">
+		<div class="comment">
+			<div class="head-face">
+				<img src="img/11.jpg" / >
+				<p>我是鸟</p>
+			</div>
+			<div class="content">
+				<div class="cont-box">
+					<textarea class="text" placeholder="请输入..."></textarea>
+				</div>
+				<div class="tools-box">
+					<div class="operator-box-btn"><span class="face-icon"  >☺</span><span class="img-icon">▧</span></div>
+					<div class="submit-btn"><input type="button" onClick="out()"value="提交评论" /></div>
+				</div>
+			</div>
+		</div>
+		<div id="info-show">
+			<ul></ul>
+		</div>
+	</div>
+</div>
+
+
+
+   <div style="clear:both;"></div> 
+<!--底部-->
+<footer>
+	<div id="bottom_part">
+		<div class="bottom_nav">
+			<span>关于我们
+<a href="">关于一淘</a></br>
+<a href="">法律声明</a></br>
+<a href="">诚聘英才</a></br>
+<a href="">廉政邮政</a>
+</span>
+<span>帮助中心
+<a href="">新手指南</a></br>
+<a href="">关于返利</a></br>
+<a href="">关于集分宝</a></br>
+<a href="">关于会员特权</a></br>
+<a href="">联系客服</a>
+</span>
+<span>手机一淘
+<a href="">
+	<b></b>
+	<img src="img/yitao.png"/>
+</a>
+</span>
+<span>优惠地图
+<a href="">品牌特卖</a></br>
+<a href="">限时闪够</a>
+</span>
+<span>商家合作
+<a href="">报名入口</a></br>
+<a href="">商家端问题</a>
+</span>
+		</div>
+		
+ <div class="etao-link">
+              <div class="etao-link-list">
+                  
+                  <a target="_blank" class="dib" href="//page.1688.com/shtml/about/ali_group1.shtml">阿里巴巴集团</a>
+                  
+                  <a target="_blank" class="dib" href="//www.taobao.com/">淘宝网</a>
+                  
+                  <a target="_blank" class="dib" href="//www.tmall.com/">天猫</a>
+                  
+                  <a target="_blank" class="dib" href="//ju.taobao.com/">聚划算</a>
+                  
+                  <a target="_blank" class="dib" href="//www.aliexpress.com/">全球速卖通</a>
+                  
+                  <a target="_blank" class="dib" href="//www.alibaba.com/">阿里巴巴国际交易市场</a>
+                  
+                  <a target="_blank" class="dib" href="//www.1688.com/">1688</a>
+                  
+                  <a target="_blank" class="dib" href="//www.alimama.com/">阿里妈妈</a>
+                  
+                  <a target="_blank" class="dib" href="//www.alitrip.com/">阿里旅行·去啊</a>
+                  
+                  <a target="_blank" class="dib" href="//www.aliyun.com/">阿里云计算</a>
+                  
+                  <a target="_blank" class="dib" href="//www.yunos.com/">YunOS</a>
+                  
+                  <a target="_blank" class="dib" href="//www.aliqin.cn/">阿里通信</a>
+                  
+                  <a target="_blank" class="dib" href="//www.net.cn/">万网</a>
+                  
+                  <a target="_blank" class="dib" href="//www.autonavi.com/">高德</a>
+                  
+                  <a target="_blank" class="dib" href="//www.uc.cn/">优视</a>
+                  
+                  <a target="_blank" class="dib" href="//www.umeng.com/">友盟</a>
+                  
+                  <a target="_blank" class="dib" href="//www.kanbox.com/">酷盘</a>
+                  
+                  <a target="_blank" class="dib" href="//www.xiami.com/">虾米</a>
+                  
+                  <a target="_blank" class="dib" href="//www.ttpod.com/">天天动听</a>
+                  
+                  <a target="_blank" class="dib" href="//www.laiwang.com/">来往</a>
+                  
+                  <a target="_blank" class="dib" href="//www.dingtalk.com/">钉钉</a>
+                  
+                  <a target="_blank" class="dib" href="//www.alipay.com/">支付宝</a>               
+              </div>
+              <div class="etao-copyright">Copyright&nbsp;©&nbsp;2010-2017&nbsp;ETAO.COM&nbsp;版权所有</div>
+              <p>增值电信业务经营许可证：浙B2-20080224</p>
+ </div>
+</div>
+</footer>
+<script src="js/jquery-1.12.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/sinaFaceAndEffec.js"></script>
+<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	// 绑定表情
+	$('.face-icon').SinaEmotion($('.text'));
+	// 测试本地解析
+	function out() {
+		var inputText = $('.text').val();
+		$('#info-show ul').append(reply(AnalyticEmotion(inputText)));
+	}
+	
+	var html;
+	function reply(content){
+		html  = '<li>';
+		html += '<div class="head-face">';
+		html += '<img src="images/1.jpg" / >';
+		html += '</div>';
+		html += '<div class="reply-cont">';
+		html += '<p class="username">小小红色飞机</p>';
+		html += '<p class="comment-body">'+content+'</p>';
+		html += '<p class="comment-footer">2016年10月5日　回复　点赞54　转发12</p>';
+		html += '</div>';
+		html += '</li>';
+		return html;
+	}
+//以上代码切来的
+    var smallPic = document.querySelector('#show_part section');// 小图框
+    var magnifier = document.querySelector('aside');// 放大块
+    var bigPic = document.querySelector('article');// 大图框
+
+
+    // 放大块移动距离 / 大图框背景图移动距离
+    var moveBorder1 = parseFloat(getComputedStyle(magnifier)['width']);
+    var moveBorder2 = parseFloat(getComputedStyle(bigPic)['width']);
+    var rate = moveBorder1 / moveBorder2;
+
+    smallPic.onmouseover = function(){
+      magnifier.style.display = 'block';
+      bigPic.style.display = 'block';
+    }
+    smallPic.onmouseout = function(){
+      magnifier.style.display = 'none';
+      bigPic.style.display = 'none';
+    }
+
+    smallPic.onmousemove = function(event){
+      event = event || window.event;
+      // var x  = event.offsetX;
+      // var y  = event.offsetY;
+      
+      // var scrolltop = document.body.scrollTop || document.documentElement.scrollTop;
+      // var scrollleft = document.body.scrollLeft || document.documentElement.scrollLeft;
+
+      
+      var y  = event.clientY - this.offsetTop - magnifier.clientHeight/2 ;
+      var x  = event.clientX - this.offsetLeft - magnifier.clientWidth/2 ;
+//    console.log(x,y);
+//var y  = event.clientY
+//var x  = event.clientX
+      if (x < 0){x = 0;}
+      if (y < 0) {y = 0;}
+      if (x > 173){x = 173;}
+      if (y > 173 ){y = 173 ;}
+
+      magnifier.style.top = y + 'px';
+      magnifier.style.left = x + 'px';
+
+      bigPic.style.backgroundPosition = (-x / rate) + 'px ' + (-y / rate) + 'px';
+    }
+    
+    function getPureTop(ele) {
+  var pureTop = ele.offsetTop;
+  var currentEle = ele;
+
+  while (currentEle = currentEle.offsetParent) {
+    pureTop += currentEle.offsetTop;
+  }
+  return pureTop;
+}
+
+function getPureLeft(ele) {
+  var pureLeft = ele.offsetLeft;
+  var currentEle = ele;
+
+  while (currentEle = currentEle.offsetParent) {
+    pureLeft += currentEle.offsetLeft;
+  }
+  return pureLeft;
+}
+
+//判断当前用户是否已经登录，如果已经登录显示用户名，否则显示登录注册的a标签
+			if( localStorage.getItem("token") ){
+				$(".login").html("用户：" + localStorage.getItem("username") + "<button class='clear'>取消登录</button>")
+				$(".loginBTNall").html("欢迎回来：" + localStorage.getItem("username")+ "<button class='clear'>取消登录</button>");
+//			    $(".head_portrait")[0].src ="img/5e08b97af6ee8cc7b9f06dcfcb491994.jpg"
+			}
+			
+			$(".clear").click(function(){
+				localStorage.clear();  //清除所有数据了！
+				$(".login").html("<button id='login'>亲，请先登录</button>");
+				$(".loginBTNall").html("<button id='loginBTN'>用户登录</button><button id=' register'>新用户注册</button>")
+//			    $(".head_portrait")[0].src ="img/head.png"
+			})
+
+//接受location.search获取get传参的数据
+			var str = location.search.substr(1);
+			//用分割方法得到 等号= 两把的内容
+			var goodId = str.split("=");
+			//通过下标方式找到id的值
+//			console.log(goodId[1]);
+			var art =$("#article")[0];
+			
+			$.ajax({
+				"url":"http://h6.duchengjiu.top/shop/api_goods.php",
+				"type": "GET",
+				"dataType": "json",
+				"data": {
+					"goods_id": goodId[1]
+				},
+				"success": function(response){
+					console.log(response);
+					var imgUrl =  response.data[0].goods_thumb
+//					<img src="' +response.data[0].goods_thumb+ '" alt="" />
+					$("#box").html('<li><h1>商品信息</h1><p><a href="#">' +response.data[0].goods_name+  '</a></p><p>' +response.data[0].goods_desc+  '</p><p class="oP">￥' +response.data[0].price+'</p></li>')
+					
+					$("#show_part section img")[0].src = imgUrl;
+					$("#article").css("background",'url('+ imgUrl+' )no-repeat');
+					$("#article").css("background-size","800px");
+//								console.log($("#article").css("background-size","800px"));
+
+				}			
+			});
+//			art.style.background="url(' +response.data[0].goods_thumb+ ' )"
+
+		//加入购物车
+			$("#crat").click(function(){
+				
+				//判断当前时候登录，没登录无法加入购物车
+				if( !localStorage.getItem("token") ){
+					alert("请登录后才能使用加入购物车功能！");
+					
+					location.href = "login.html#callback=" +location.href;
+					return;
+				}
+				
+				console.log(goodId[1]);
+				
+				//获取本地存储中商品信息
+				var goods_number = localStorage.getItem("cart"+goodId[1]);
+				
+				//如果有 就是买过，让之前商品商量+1 ，如果没有就是第一次购买 ，那数量 1
+				goods_number = goods_number ? parseInt(goods_number)+1 : 1;
+				
+				
+				$.ajax({
+					"url":"http://h6.duchengjiu.top/shop/api_cart.php?token="+ localStorage.token,
+					"type":"POST",
+					"dataType": "json",
+					"data": {
+						"goods_id": goodId[1],
+						"number": goods_number
+					},
+					"success": function(response){
+						console.log(response);
+						//使用后存储商品数量到本地存储中
+						localStorage.setItem("cart"+goodId[1],goods_number);	
+					}
+				});			
+			})			
+//购物车下拉及数据获取
+			$("#dropDownMenu").click(function(){
+				$(".pullcart").slideToggle();
+				
+				$.ajax({
+				"url":"http://h6.duchengjiu.top/shop/api_cart.php?token="+localStorage.token,
+				"type":"GET",
+				"dataType": "json",
+				"success": function(response){
+//					console.log(response);
+					$(".pullcart").html("");
+					if(response.data.length === 0){
+					$(".pullcart").html("您还没有购物");
+					 return;
+					}
+					if(response.data.length > 0){
+						//循环数据
+						for(var i=0;i<response.data.length;i++){
+							var obj = response.data[i];				
+							var html="";
+							html += `<div>
+							<img src=${obj.goods_thumb}>
+							<span>${ obj.goods_name }</span>
+							<span class="goods-one">${ obj.goods_price }</span>		
+							</div>`;														
+							$(".pullcart").html( $(".pullcart").html()+html );
+						}
+					}
+				}
+			});
+			})
+  </script>
+	</body>
+</html>
+

@@ -1,0 +1,220 @@
+*{
+	margin: 0;
+	padding:0 ;
+}
+body{
+	background: url(../img/u=3664545027,496081217&fm=27&gp=0.jpg);
+	
+}
+
+header #headUl{
+	margin-top:5px ;
+	position: relative;
+	width:100% ;
+	height: 40px;
+	background-color: #EEEEEE;
+	list-style: none;
+	float: left;
+}
+#headUl li{
+	/*line-height: 40px;*/
+	height: 40px;
+	list-style: none;
+	float: left;
+	margin-left:20px;
+}
+#headUl .liLeft{
+	float: left;
+	left:50px;
+	position: absolute;
+}
+#headUl .liRight{
+	float: left;
+	right:50px;
+	position: absolute;
+}
+
+#headUl li a{
+    height:40px;
+    margin-top: 10px;
+	font-size: 10px;
+	color: #666;
+	text-decoration:none;
+}
+
+#headUl li .red-a{
+	font-size: 14px;
+	color: red;
+}
+
+
+/*注册主题部分*/
+#register_logo{
+/*	margin-top: 10px;*/
+	position: relative;
+	top:10px;
+	left: 20px;
+	height: 550px;
+}
+.success{
+		background: green;
+		color: white;
+		font-size: 16px;
+		display: none;
+}
+.error{
+	background: red;
+	color: white;
+	font-size: 16px;
+	display: none;
+}
+#user_register{
+	left:30%;
+	position: absolute;
+	/*text-align: center;*/
+}
+#user_register p{
+	margin-top:10px;
+}
+
+#user_register h3{
+	margin-top: 20px;
+	/*position: absolute;*/
+}
+#user_register #reg{
+	margin: 20px 80px;
+	width: 100px;
+	height: 40px;
+	background: red;
+	color: white;
+	border:none ;
+	cursor:pointer ;
+}
+
+/*底部通用样式*/
+footer{
+	font-size: 8px;
+}
+footer ul{
+	width: 100%;
+	margin-top:5px ;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	list-style: none;
+	float: left;
+}
+footer ul li{
+	list-style: none;
+	float: left;
+    margin:10px;
+	font-size: 8px;
+}
+footer ul li a{
+	margin: 5px;
+	text-decoration: none;
+	color: #222;
+}
+#bot{
+	
+	text-align: center;
+}
+
+
+/*下单样式*/
+.address {
+	width: 100%;
+	background: #B0C4DE;
+	width: 80%;
+	border-radius: 30px;
+}
+
+ h4{
+ 	padding:5px ;
+	color: red;
+	font-weight: bold;
+}
+
+.address .newAddress {
+	float: right;
+	padding: 5px;
+	border: 2px solid lightgray;
+	background: #0000FF;
+	color: white;
+	border-radius: 20px;
+}
+
+.address .newAddress:hover {
+	background: black;
+	color: white;
+}
+
+.address ul {
+	width: 80%;
+	min-height: 300px;
+	margin-top: 20px;
+}
+
+.address ul li {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	border-bottom: 1px solid darkgoldenrod;
+}
+
+.address ul li span {
+	float: right;
+	color: #E31436;
+}
+
+.address ul li:hover {
+	background: orange;
+}
+
+.add {
+	padding: 1%;
+	width: 500px;
+	height: 500px;
+	background: #D3D3D3;
+	position: absolute;
+	left: 300px;
+	top: 100px;
+	display: none;
+}
+
+.add p{
+	margin-top: 5px;
+	line-height: 40px;
+}
+.add #btn{
+	margin: auto 40%;
+	margin-top: 150px;
+	padding: 10px;
+	background-color: #CD5C5C;
+	border: none;
+	border-radius: 50%;
+}
+.add span {
+	float: right;
+	font-size:30px ;
+	color: white;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	background: red;
+}
+
+.active {
+	background: deepskyblue;
+}
+
+#order {
+	width: 130px;
+	height: 60px;
+	border-radius: 15px;
+	background: hotpink;
+	font-size: 20px;
+}

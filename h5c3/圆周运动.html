@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+
+		<script type="text/javascript">
+			//			封装旋转圆球
+			function CricleBall(opt) {
+				//保存中心点
+				this.centerX = opt.centerX;
+				this.centerY = opt.centerY;
+
+				//				保存半径
+				this.r = opt.r;
+				//              初始角度
+				this.d = 0;
+
+				//创建小球元素
+				this.dom = document.createElement("div");
+				//添加到页面
+				document.body.appendChild(this.dom);
+				
+				this.update();
+			}
+			
+			CricleBall.prototype.update = function(){
+				this.dom.style.left =this.centerX + this.r * Math.cos(zh(this.d));
+				this.dom.style.top =this.centerY + this.r * Math.sin(zh(this.d));
+			}
+		</script>
+	</body>
+
+</html>

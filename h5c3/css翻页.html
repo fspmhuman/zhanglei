@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				position: relative;
+				margin-left: 10%;
+				margin-top: 15%;
+			}
+			
+			div img{
+				width: 200px;
+				border-radius:50%;
+				position: absolute;
+				transition: all 5s ease 0s;
+				
+				                  /*旋转方向*/
+				transform-origin: left;
+				
+			}
+			
+			div:hover img{
+				/*上下rotateX 左右rotateY*/
+				transform: rotateY(180deg);
+				/*transform-origin: top;*/
+			}
+		</style>
+	</head>
+	<body>
+		
+		
+		<div>
+			<img src="img/hero2.jpg"/>
+		</div>
+	</body>
+</html>

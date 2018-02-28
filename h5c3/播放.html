@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<video src="video/会说话的汤姆猫.mp4" width="400" height="auto" controls="ture" autoplay id="video">
+			
+		</video>
+		<input type="button" id="btn" value="开始">
+		
+		<script type="text/javascript">
+			var Obtn = document.getElementById("btn");
+			Obtn.onclick = function(){
+				var oVideo = document.getElementById("video");	
+				if(this.value="暂停"){		
+					oVideo.pause();				
+				this.value ="开始";
+				return;
+				}else if(this.value="开始"){
+                 console.log("1");
+//               oVideo.remove('pause');
+					oVideo.play();
+				 this.value ="暂停";
+					return;
+				}
+				
+			};
+		</script>
+	</body>
+</html>

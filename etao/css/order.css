@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/*background: url(../img/u=3664545027,496081217&fm=27&gp=0.jpg);*/
+}
+
+header #headUl {
+	margin-top: 5px;
+	position: relative;
+	width: 100%;
+	height: 40px;
+	background-color: #EEEEEE;
+	list-style: none;
+	float: left;
+}
+
+#headUl li {
+	/*line-height: 40px;*/
+	height: 40px;
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+}
+
+#headUl .liLeft {
+	float: left;
+	left: 50px;
+	position: absolute;
+}
+
+#headUl .liRight {
+	float: left;
+	right: 50px;
+	position: absolute;
+}
+
+#headUl li a {
+	height: 40px;
+	margin-top: 10px;
+	font-size: 10px;
+	color: #666;
+	text-decoration: none;
+}
+
+#headUl li .red-a {
+	font-size: 14px;
+	color: red;
+}
+
+/*主体部分*/
+/*底部通用样式*/
+
+footer {
+	font-size: 8px;
+}
+
+footer ul {
+	width: 100%;
+	margin-top: 5px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	list-style: none;
+	float: left;
+}
+
+footer ul li {
+	list-style: none;
+	float: left;
+	margin: 10px;
+	font-size: 8px;
+}
+
+footer ul li a {
+	margin: 5px;
+	text-decoration: none;
+	color: #222;
+}
+
+#bot {
+	text-align: center;
+}
+
+
+/*下单样式*/
+h2{
+	margin-left:5%;
+	color: #B22222;
+}
+
+#order-list{
+	margin: auto 5%;
+	
+}
+
+
+.order-item {
+	border-radius: 10px;
+	margin: 10px 0;
+	border: 3px solid #666666;
+}
+
+.order-item-header {
+	border-bottom: 2px solid #FFA500;
+	line-height: 30px;
+	background:#FF69B4 ;
+	font-weight: 900;
+}
+
+img {
+	width: 100px;
+}

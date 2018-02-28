@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	height: 84px;
+	/*float: left;*/
+	overflow: hidden;
+}
+header span{
+	float: left;
+	/*line-height:70px ;*/
+}
+header span img{
+	margin:5px 40px ;
+	width: 127px;
+	height: 70px;
+}		
+
+header span p{
+	margin-top: 20px;
+	background: #FFecee;
+	padding:5px 40px;
+	height:20px ;
+	font-size: 10px;
+	border:1px solid red;
+}
+
+section{
+	/*margin-top: 80px;*/
+	position: relative;
+	width:2000px ;
+	left: -600px;
+	height:600px ;
+	background:url(../img/TB19qZQivDH8KJjy1XcXXcpdXXa-2500-600.jpg);
+}
+#login_part{
+	border: 1px solid #000000;
+	position: absolute;
+	left: 1400px;
+	top:200px;
+	padding:50px;
+	background-color: #eee;
+}
+#login_part p{
+	margin:10px ;
+}
+#login_part h4{
+	margin:20px 10px ;
+}
+#login_part input{
+	height: 30px;
+}
+#login_part #login{
+	width:173px;
+	height: 30px;
+	background-color:red ;
+	color: white;
+	border: none;
+}
+
+/*底部通用样式*/
+footer{
+	font-size: 8px;
+}
+footer ul{
+	width: 100%;
+	margin-top:5px ;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	list-style: none;
+	float: left;
+}
+footer ul li{
+	list-style: none;
+	float: left;
+    margin:10px;
+	font-size: 8px;
+}
+footer ul li a{
+	margin: 5px;
+	text-decoration: none;
+	color: #222;
+}
+#bot{
+	
+	text-align: center;
+}
